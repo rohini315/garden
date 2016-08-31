@@ -1,0 +1,68 @@
+@import 'https://fonts.googleapis.com/css?family=Dawning+of+a+New+Day';
+@import 'https://fonts.googleapis.com/css?family=Abel';
+@import 'https://fonts.googleapis.com/css?family=Cormorant+Garamond';
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	overflow: hidden;			
+}
+
+#blocker {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	background-image: url("vinewall2.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;				
+}
+
+#intro {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	cursor: pointer;
+	font-family: 'Dawning of a New Day', cursive;
+	font-size: 93px;
+	color: white;
+	margin-top: 5% ;	
+}
+
+#intro p {
+	font-family: 'Cormorant Garamond', serif;
+	font-size: 60px;
+	color: white;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	padding-bottom: 15px;
+	letter-spacing: 1px;
+}
+
+#intro h5 {
+	font-family:'Cormorant Garamond', serif;
+	font-size: 50px;
+	text-align: center;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 10px;
+	letter-spacing: 1px;
+}
+
+
+#intro h6 {
+	font-family:'Cormorant Garamond', serif;
+	font-size: 50px;
+	text-align: center;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	text-decoration: underline;
+	letter-spacing: 1px;
+}
